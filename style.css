@@ -217,6 +217,11 @@ figure{
     align-items:center;
 }
 
+.identificar{
+    display:flex;
+    flex-direction: row;
+}
+
 .form_historia{
     display: flex;
     flex-direction: column;
@@ -228,13 +233,14 @@ figure{
     width: 20rem;
     border: 1px solid black;
     border-radius: .1rem;
+    margin-top:1rem;
 }
 
 .historia_box{
     margin: 1rem 0;
     resize:none;
     width:20rem;
-    height:30rem;
+    height:25rem;
     border: 1px solid black;
     border-radius: .1rem;
 }
@@ -244,7 +250,7 @@ figure{
     border: 1px solid black;
     border-radius: .2rem;
     width: 9rem;
-    height:3rem;
+    height:2.5rem;
 }
 /*
 .anonimo{
