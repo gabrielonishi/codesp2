@@ -186,6 +186,26 @@ footer{
     display: flex;
     flex-direction: row;
 }
+
+/*Novo Post*/
+.main_novopost{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.titulo_box{
+    margin-top: 2rem;
+    height: 2rem;
+    width: 20rem;
+}
+
+.historia_box{
+    resize:none;
+}
 /*
 .anonimo{
     margin-left: 32.5rem;
